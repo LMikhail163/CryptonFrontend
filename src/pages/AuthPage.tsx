@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useRegisterMutation, useLoginMutation } from '../api/index';
 import { FooterForm } from '../components/authForm/authForm';
-import { Spinner } from '../components/spinner/Spinner';
+import { Spinner } from '../components/spinner/spinner.tsx';
 
 export const AuthPage = () => {
   const [email, setEmail] = useState(''); 

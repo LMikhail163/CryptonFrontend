@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useGetProfileQuery } from '../api/index';
-import { SkeletonProfile } from '../components/skeletonProfile/SkeletonProfile';
+import { SkeletonProfile } from '../components/skeletonProfile/skeletonProfile.tsx';
 
 export const ProfilePage = () => {
   const token = localStorage.getItem('token');
